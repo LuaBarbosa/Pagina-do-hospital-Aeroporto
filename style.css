@@ -1,0 +1,43 @@
+.body {
+  font-family: "Roboto";
+  margin: 0;
+  background-color: #fff;
+}
+
+.cabecalho {
+  display: flex;
+  align-content: space-around;
+  font-size: 15px;
+  border-bottom: 1px solid #e7e7e7;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+
+.cabecalho img {
+  height: 50px;
+  padding-top: 2px;
+  padding-left: 15px;
+}
+
+.cabecalho ul {
+  list-style-type: none;
+  display: flex;
+  align-content: space-around;
+  font-size: 12px;
+}
+
+.cabecalho li {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: #222;
+}
+
+.caixaTelefone {
+  color: white;
+  background-color: #45899b;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px 0px;
+  width: 120px;
+}
