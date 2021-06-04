@@ -41,3 +41,45 @@
   padding: 30px 0px;
   width: 120px;
 }
+
+.corpo {
+  font-family: "Roboto";
+  display: flex;
+}
+
+.corpoPrincipal h1 {
+  color: #45899b;
+  font-size: 66px;
+  line-height: 1.25em;
+  font-family: "Montserrat Alternativas", Arial, sans-serif;
+  font-weight: 200;
+  margin: 23px 23px 0;
+}
+
+.outrasEspecialidades {
+  background-color: #007cba;
+  color: white;
+  height: 750px;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.outrasEspecialidades img {
+  height: 60px;
+  width: 60px;
+}
+.outrasEspecialidades li {
+  text-align: center;
+  background-color: #005a87;
+  list-style-type: none;
+  width: 300px;
+  height: 120px;
+  margin: 20px;
+  padding-top: 60px;
+}
+
+.outrasEspecialidades h3 {
+  border: white solid 2px;
+  text-align: center;
+}
