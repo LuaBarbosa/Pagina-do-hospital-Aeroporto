@@ -45,6 +45,7 @@
 .corpo {
   font-family: "Roboto";
   display: flex;
+  margin: 30px;
 }
 
 .corpoPrincipal h1 {
@@ -56,30 +57,66 @@
   margin: 23px 23px 0;
 }
 
+.corpoPrincipal {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  text-align: left;
+  color: #222;
+}
+
+.corpoPrincipal h2 {
+  color: #45899b;
+  font-family: "Roboto";
+  font-size: 25px;
+  margin: 30px 000;
+}
+
 .outrasEspecialidades {
-  background-color: #007cba;
+  background-color: #006ba1;
   color: white;
-  height: 750px;
-  width: 1300px;
+  height: 500px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .outrasEspecialidades img {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 .outrasEspecialidades li {
   text-align: center;
   background-color: #005a87;
   list-style-type: none;
-  width: 300px;
-  height: 120px;
+  width: 150px;
+  height: 80px;
   margin: 20px;
-  padding-top: 60px;
+  padding-top: 20px;
+  display: block;
+}
+
+.outrasEspecialidades ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
 }
 
 .outrasEspecialidades h3 {
-  border: white solid 2px;
+  border: #ccc solid 1px;
   text-align: center;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 15px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.medico img {
+  border-radius: 3px;
+  width: 600px;
+  height: 900px;
 }
