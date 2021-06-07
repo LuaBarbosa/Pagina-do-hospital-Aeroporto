@@ -120,6 +120,20 @@
 
 .medico img {
   border-radius: 3px;
-  width: 600px;
-  height: 900px;
+  width: 350px;
+  height: 520px;
+}
+
+.medico h2 {
+  font-size: 30px;
+  font-family: "Roboto";
+}
+
+.rodape {
+  color: #fff;
+  font-family: "Roboto";
+  background-color: #006ba1;
+  text-align: center;
+  font-size: 15px;
+  display: block;
 }
